@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.3">
   <diagram name="Page-1" id="fkUrcEgpzgYxFIt1Kh8C">
-    <mxGraphModel dx="5736" dy="3092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1013,6 +1013,9 @@
         </mxCell>
         <mxCell id="QJ0V47G5KzTv9Zsy4d-s-384" value="&lt;div&gt;FISICO:&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;PERSONA (&lt;u&gt;DNI&lt;/u&gt;, NOMBRE_COMPLETO, DIRECCION)&lt;/div&gt;&lt;div&gt;TIENE (&lt;u&gt;DNI&lt;/u&gt;(FK),&lt;u&gt;NUMERO&lt;/u&gt;(FK))&lt;/div&gt;&lt;div&gt;TELEFONO (&lt;u&gt;NUMERO&lt;/u&gt;)&lt;br&gt;&lt;/div&gt;&lt;div&gt;STAFF (&lt;u&gt;DNI(FK)&lt;/u&gt;,FECHA_NACIMIENTO,COOREO_ELECTRONICO,&lt;/div&gt;&lt;div&gt;ROL)&lt;/div&gt;&lt;div&gt;INQUILINO (&lt;u&gt;DNI(FK)&lt;/u&gt;)&lt;/div&gt;&lt;div&gt;REPRESENTA_EMPRESA (&lt;u&gt;DNI(FK),RAZON_SOCIAL(FK))&lt;/u&gt;&lt;/div&gt;&lt;div&gt;VENDE_COMESTIBLES (&lt;u&gt;DNI&lt;/u&gt;(FK),&lt;u&gt;NOMBRE&lt;/u&gt;)&lt;/div&gt;&lt;div&gt;EMPRESA (&lt;u&gt;RAZON_SOCIAL)&lt;/u&gt;&lt;/div&gt;&lt;div&gt;TIPO_GASTRONOMIA (&lt;u&gt;NOMBRE)&lt;/u&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ALQUILER([&lt;u&gt;DNI(FK),FECHA,HORA])&lt;/u&gt;&lt;/div&gt;&lt;div&gt;PRESTA ([&lt;u&gt;DNI(FK),FECHA,HORA],NOMBRE_SERVICIO&lt;/u&gt;)&lt;/div&gt;&lt;div&gt;SERVICIO (&lt;u&gt;NOMBRE_SERVICIO&lt;/u&gt;, DESCRIPCION, PRECIO_SERVICIO)&lt;/div&gt;&lt;div&gt;LUGAR (&lt;u&gt;NUMERO&lt;/u&gt;,DESCRIPCION,M2, UBICACION, DISTANCIA_ACCESO&lt;/div&gt;&lt;div&gt;PRECIO_DIA)&lt;/div&gt;&lt;div&gt;EVENTO = (&lt;u&gt;[NOMBRE,FECHA],&lt;/u&gt; HORA, DESCRIPCION, DURACION)&lt;/div&gt;&lt;div&gt;STAFF (&lt;u&gt;DNI(FK)&lt;/u&gt;, FECHA_NACIMIENTO, CORREO_ELECTRONICO, ROL)&lt;/div&gt;&lt;div&gt;TRABAJA (&lt;u&gt;DNI(FK),[NOMBRE(FK),FECHA(FK)])&lt;/u&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=40;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2130" y="361.25" width="1390" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="QJ0V47G5KzTv9Zsy4d-s-387" value="(0,1)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="827.5" y="1011.25" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
