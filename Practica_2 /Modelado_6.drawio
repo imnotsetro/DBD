@@ -490,14 +490,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="J5-lGYkEFp9PFqPF1LRj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;" edge="1" parent="1" source="J5-lGYkEFp9PFqPF1LRj-3" target="dxS-f-YdwQxAhVwUpoM0-47">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1170" y="550" />
-              <mxPoint x="710" y="550" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="J5-lGYkEFp9PFqPF1LRj-3" value="POSEE" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1110" y="722.5" width="120" height="70" as="geometry" />
         </mxCell>
