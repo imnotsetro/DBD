@@ -49,9 +49,9 @@
     SELECT COUNT(P.nroSocio) AS Cant_Socios_Prestamos_Buenos
     FROM PRESTAMO P
     WHERE P.ISBN IN (
-        SELECT L.ISBN
-        FROM LIBRO L
-        WHERE L.Estado = 'Bueno'
+        SELECT C.ISBN
+        FROM COPIA C
+        WHERE C.Estado = 'Bueno'
     )
     GROUP BY P.nro_Socio
     
