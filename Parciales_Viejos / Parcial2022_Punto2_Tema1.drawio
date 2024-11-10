@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.4">
   <diagram name="Page-1" id="cYu9nDSoGksmL8P7lqxv">
-    <mxGraphModel dx="3134" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="7436" dy="3092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -389,6 +389,9 @@
           <mxGeometry x="1434.956666666667" y="475" as="geometry">
             <mxPoint x="-140" y="195" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="WipPlBGi0sNBY6z7En27-1" value="&lt;div&gt;&lt;b&gt;PERSONA &lt;/b&gt;(&lt;u&gt;DNI&lt;/u&gt;, NY AP, DIRECCION)&lt;/div&gt;&lt;div&gt;&lt;b&gt;CORREDOR &lt;/b&gt;(&lt;u&gt;DNI&lt;/u&gt;, ANTECEDENTE_MEDICOS(0,1)&lt;/div&gt;&lt;div&gt;&lt;b&gt;ORGANIZADOR &lt;/b&gt;(&lt;u&gt;DNI&lt;/u&gt;)&lt;/div&gt;&lt;div&gt;&lt;b&gt;TIENE_EMAIL &lt;/b&gt;(&lt;u&gt;DNI&lt;/u&gt;(FK), EMAIIL_COMPLETO(FK))&lt;/div&gt;&lt;div&gt;&lt;b&gt;TIENE_TELEFONO &lt;/b&gt;(&lt;u&gt;DNI&lt;/u&gt;, &lt;u&gt;[PREFIJO_INTERNACIONAL, PREFIJO&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;NACIONAL, CARACTERISTICA, NUMERO])&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;TELEFONO &lt;/b&gt;(&lt;u&gt;[PREFIJO_INTERNACIONAL, PREFIJO&lt;/u&gt;&lt;div&gt;&lt;u&gt;NACIONAL, CARACTERISTICA, NUMERO])&lt;/u&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;LLEGA &lt;/b&gt;(&lt;u&gt;DNI(FK), DISTANCIA(FK),&lt;/u&gt; PUESTO&lt;u&gt;)&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;TRAMOS &lt;/b&gt;(&lt;u&gt;[DISTANCIA&lt;/u&gt;, &lt;u&gt;NOMBRE(FK)&lt;/u&gt;, RECORRIDO, DNI(FK))&lt;/div&gt;&lt;div&gt;&lt;b&gt;CARRERA &lt;/b&gt;(&lt;u&gt;NOMBRE,&lt;/u&gt; DIR_COMIENZO, DIR_FIN)&lt;/div&gt;&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="265" width="1210" height="590" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
