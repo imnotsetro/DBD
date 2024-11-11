@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.4">
   <diagram name="Page-1" id="EOQTV_sek9LF6cyzf9Fv">
-    <mxGraphModel dx="2049" dy="1036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3585" dy="1813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,6 +83,11 @@
         <mxCell id="xIgQ6-Jz6V1mEtbTspME-50" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="xIgQ6-Jz6V1mEtbTspME-18" target="xIgQ6-Jz6V1mEtbTspME-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="xIgQ6-Jz6V1mEtbTspME-190" value="(1,N)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="xIgQ6-Jz6V1mEtbTspME-50">
+          <mxGeometry x="0.6485" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xIgQ6-Jz6V1mEtbTspME-18" value="EMPLEADO" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2115" y="520" width="120" height="60" as="geometry" />
         </mxCell>
@@ -106,7 +111,7 @@
         <mxCell id="xIgQ6-Jz6V1mEtbTspME-33" value="ES_EMPLEADO" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2115" y="360" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="xIgQ6-Jz6V1mEtbTspME-38" value="ES_EMPLEADO" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="xIgQ6-Jz6V1mEtbTspME-38" value="TIENE_PROFESION" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1985" y="430" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xIgQ6-Jz6V1mEtbTspME-46" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="xIgQ6-Jz6V1mEtbTspME-41" target="xIgQ6-Jz6V1mEtbTspME-38">
@@ -161,7 +166,7 @@
           <mxGeometry x="1845" y="760" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xIgQ6-Jz6V1mEtbTspME-57" value="" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1925" y="785" width="20" height="20" as="geometry" />
+          <mxGeometry x="1925" y="765" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="xIgQ6-Jz6V1mEtbTspME-59" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="xIgQ6-Jz6V1mEtbTspME-58" target="xIgQ6-Jz6V1mEtbTspME-57">
           <mxGeometry relative="1" as="geometry" />
@@ -501,6 +506,9 @@
         </mxCell>
         <mxCell id="xIgQ6-Jz6V1mEtbTspME-185" value="RESPONSABLE" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="2345" y="695" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xIgQ6-Jz6V1mEtbTspME-189" value="&lt;div style=&quot;font-size: 40px;&quot;&gt;&lt;b&gt;PERSONA &lt;/b&gt;(&lt;u style=&quot;font-size: 40px;&quot;&gt;DNI,&lt;/u&gt; NOMBRE, APELLIDO, DIRECCION_COMPLETA)&lt;/div&gt;&lt;div style=&quot;font-size: 40px;&quot;&gt;&lt;b&gt;EMPLEADO &lt;/b&gt;(&lt;u style=&quot;font-size: 40px;&quot;&gt;LEGAJO&lt;/u&gt;, DNI(FK))&lt;/div&gt;&lt;div style=&quot;font-size: 40px;&quot;&gt;&lt;b&gt;TIENE_PROFESION &lt;/b&gt;(&lt;u style=&quot;font-size: 40px;&quot;&gt;NOMBRE, LEGAJO&lt;/u&gt;)&lt;br style=&quot;font-size: 40px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 40px;&quot;&gt;&lt;b&gt;HUESPED &lt;/b&gt;(&lt;u style=&quot;font-size: 40px;&quot;&gt;CUIT&lt;/u&gt;, DNI(FK))&lt;/div&gt;&lt;div style=&quot;font-size: 40px;&quot;&gt;&lt;b&gt;TRABAJO &lt;/b&gt;([&lt;u style=&quot;font-size: 40px;&quot;&gt;DESDE, LEGAJO(FK), &lt;/u&gt;NUMERO_SECTOR(FK),&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 40px;&quot;&gt;PISO&lt;u style=&quot;font-size: 40px;&quot;&gt;(FK))&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 40px;&quot;&gt;&lt;b&gt;SECTOR &lt;/b&gt;(&lt;u style=&quot;font-size: 40px;&quot;&gt;NUMERO_SECTOR, PISO&lt;/u&gt;, DESCRIPCION)&lt;/div&gt;&lt;div style=&quot;font-size: 40px;&quot;&gt;&lt;b&gt;ALOJAMIENTO &lt;/b&gt;(&lt;u style=&quot;font-size: 40px;&quot;&gt;CUIT(FK), [NUMERO(FK), FECHA_INICIO(FK))&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 40px;&quot;&gt;&lt;b&gt;ESTADIA &lt;/b&gt;([&lt;u style=&quot;font-size: 40px;&quot;&gt;FECHA_INICIO, NUMERO(FK)]&lt;/u&gt;, NRO_TARJETA, &lt;br style=&quot;font-size: 40px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 40px;&quot;&gt;PAJO_TAR?, OBSERVACIONES, FECHA_FIN?)&lt;/div&gt;&lt;div style=&quot;font-size: 40px;&quot;&gt;&lt;b&gt;HABITACION &lt;/b&gt;(&lt;u style=&quot;font-size: 40px;&quot;&gt;NUMERO&lt;/u&gt;, CAPACIDAD, DESCRIPCION,PRECIO_DIA)&lt;/div&gt;&lt;div style=&quot;font-size: 40px;&quot;&gt;&lt;b&gt;SERV_EST &lt;/b&gt;(&lt;u style=&quot;font-size: 40px;&quot;&gt;CUIT(FK), [FECHA_INICIO(FK), NUMERO(FK)],&lt;/u&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 40px;&quot;&gt;&lt;u style=&quot;font-size: 40px;&quot;&gt;CODIGO(FK)&lt;/u&gt;,CANT, PRECIO)&lt;/div&gt;&lt;div style=&quot;font-size: 40px;&quot;&gt;&lt;b&gt;SERVICIO &lt;/b&gt;(&lt;u style=&quot;font-size: 40px;&quot;&gt;CODIGO,&lt;/u&gt; PRECIO, DESCRIPCION)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=40;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3530" y="170" width="1290" height="690" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
